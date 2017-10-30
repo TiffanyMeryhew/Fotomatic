@@ -41,6 +41,9 @@ header {
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
+  /*added lines*/
+  font-family: "Roboto-Regular";
+  z-index: 10;
 }
 
 header .content {
@@ -51,6 +54,8 @@ header .content {
 
 header .logo {
   flex: 1;
+  /*added line*/
+  font-family: Rubik, serif;
 }
 
 header nav ul {
@@ -66,6 +71,8 @@ nav a {
   line-height: 1.6;
   font-size: 1rem;
   color: #4a4a4a;
+  /*added line */
+  font-family: 'Roboto Regular', sans-serif;
 }
 
 header .icon {
@@ -117,6 +124,11 @@ header .mobile {
   justify-content: flex-start;
   align-items: flex-start;
   height: 43.5rem;
+  /*added lines*/
+  background-image: url("../images/banner-landingpage.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
 }
 
 #sign-up-cta {
@@ -124,6 +136,10 @@ header .mobile {
   border: solid 1px #979797;
   border-radius: 4px;
   background-color: #9dc20b;
+  /*added lines*/
+  position: relative;
+  top: 171px;
+  left: 10%;
 }
 
 #sign-up-cta .content {
@@ -223,10 +239,15 @@ header .mobile {
   background-color: white;
 }
 
-.feature .image-container {
+.feature .image-container img{
   width: 90%;
   height: 65%;
   margin: 0 auto;
+}
+
+/*added code*/
+.feature .content{
+  padding: 2.5rem 0;
 }
 
 .feature h2 {
@@ -234,11 +255,13 @@ header .mobile {
   font-size: 2.25rem;
   font-weight: bold;
   color: #4a4a4a;
+  /*added line */
+  line-height: 1.2em;
 }
 
 .feature h3 {
   font-size: 1rem;
-  line-height: 1.2;
+  line-height: 1.2em;
   font-weight: 300;
   color: #4a4a4a;
 }
@@ -288,7 +311,7 @@ header .mobile {
 
 #filters-section .content h3 {
   font-size: 1rem;
-  line-height: 1.4;
+  line-height: 1.4em;
   font-weight: 300;
   color: white;
 }
@@ -296,6 +319,14 @@ header .mobile {
 #filters-section .images-container {
   max-width: 100%;
   padding: 0 1%;
+  /*added line */
+  display: flex;
+}
+
+/*added code*/
+#filters-section .images-container img{
+  width: 100%;
+  height: auto;
 }
 
 @media only screen and (max-width: 760px) {
